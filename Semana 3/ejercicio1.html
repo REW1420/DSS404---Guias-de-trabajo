@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decimal a binario</title>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/decimalbinario.css" />
+    <script src="js/modernizr.custom.lis.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Convertidor de Decimal a binario</h1>
+    </header>
+    <section>
+      <article>
+        <div id="wrapper">
+          <div id="login" class="animate form">
+            <form action="convertir.php" method="post">
+              <p>
+                <label for="numero" class="uname" data-icon="p">
+                  NUmero Decimal (base 10)
+                </label> 
+                <input
+                  type="text"
+                  name="numero"
+                  id="numero"
+                  placeholder="Numero Decimal (base 10)"
+                  class="numero"
+                />
+                <br/>
+                <p class="login button">
+                    <input type="submit" name="convertir" value="Convertir">
+                </p>
+              </p>
+            </form>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

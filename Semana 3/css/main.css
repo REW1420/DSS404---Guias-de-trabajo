@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+}
+
+h1 {
+    font: Bold 2.2em "LeagueGothicRegular", Arial, Helvetica, "Liberation Sans";
+    color: #333366;
+    margin: 16px auto;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2),
+        1px 1px 1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.nota {
+    text-align: center;
+}
